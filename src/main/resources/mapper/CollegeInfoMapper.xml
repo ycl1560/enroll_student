@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.gues.mapper.CollegeInfoMapper">
+  <resultMap id="BaseResultMap" type="cn.edu.gues.entity.CollegeInfo">
+    <!--@mbg.generated generated on Thu Oct 24 18:31:21 CST 2019.-->
+    <!--@Table college_info-->
+    <id column="学院编号" jdbcType="INTEGER" property="学院编号" />
+    <result column="学院名称" jdbcType="VARCHAR" property="学院名称" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu Oct 24 18:31:21 CST 2019.-->
+    学院编号, 学院名称
+  </sql>
+</mapper>

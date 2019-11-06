@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.gues.mapper.PositionInfoMapper">
+  <resultMap id="BaseResultMap" type="cn.edu.gues.entity.PositionInfo">
+    <!--@mbg.generated generated on Thu Oct 24 18:31:43 CST 2019.-->
+    <!--@Table position_info-->
+    <id column="position_id" jdbcType="INTEGER" property="positionId" />
+    <result column="position_address" jdbcType="VARCHAR" property="positionAddress" />
+    <result column="position_type" jdbcType="VARCHAR" property="positionType" />
+    <result column="position_years" jdbcType="INTEGER" property="positionYears" />
+    <result column="position_sex" jdbcType="SMALLINT" property="positionSex" />
+    <result column="position_education_background" jdbcType="VARCHAR" property="positionEducationBackground" />
+    <result column="position_monthly_pay" jdbcType="INTEGER" property="positionMonthlyPay" />
+    <result column="position_person_count" jdbcType="INTEGER" property="positionPersonCount" />
+    <result column="position_name" jdbcType="VARCHAR" property="positionName" />
+    <result column="position_detail" jdbcType="VARCHAR" property="positionDetail" />
+    <result column="position_user_id" jdbcType="INTEGER" property="positionUserId" />
+    <result column="position_province" jdbcType="VARCHAR" property="positionProvince" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu Oct 24 18:31:43 CST 2019.-->
+    position_id, position_address, position_type, position_years, position_sex, position_education_background, 
+    position_monthly_pay, position_person_count, position_name, position_detail, position_user_id, 
+    position_province
+  </sql>
+</mapper>

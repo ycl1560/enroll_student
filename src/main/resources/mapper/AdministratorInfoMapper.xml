@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.gues.mapper.AdministratorInfoMapper">
+  <resultMap id="BaseResultMap" type="cn.edu.gues.entity.AdministratorInfo">
+    <!--@mbg.generated generated on Thu Oct 24 18:31:14 CST 2019.-->
+    <!--@Table administrator_info-->
+    <id column="administrator_id" jdbcType="INTEGER" property="administratorId" />
+    <result column="administrator_name" jdbcType="VARCHAR" property="administratorName" />
+    <result column="administrator_password" jdbcType="VARCHAR" property="administratorPassword" />
+    <result column="login_time" jdbcType="TIMESTAMP" property="loginTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu Oct 24 18:31:14 CST 2019.-->
+    administrator_id, administrator_name, administrator_password, login_time
+  </sql>
+</mapper>

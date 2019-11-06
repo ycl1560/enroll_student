@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.gues.mapper.DocumentInfoMapper">
+  <resultMap id="BaseResultMap" type="cn.edu.gues.entity.DocumentInfo">
+    <!--@mbg.generated generated on Thu Oct 24 18:31:26 CST 2019.-->
+    <!--@Table document_info-->
+    <id column="document_id" jdbcType="INTEGER" property="documentId" />
+    <result column="document_title" jdbcType="VARCHAR" property="documentTitle" />
+    <result column="document_address" jdbcType="VARCHAR" property="documentAddress" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu Oct 24 18:31:26 CST 2019.-->
+    document_id, document_title, document_address, create_time
+  </sql>
+</mapper>

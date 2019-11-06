@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.gues.mapper.EmploymentInfoMapper">
+  <resultMap id="BaseResultMap" type="cn.edu.gues.entity.EmploymentInfo">
+    <!--@mbg.generated generated on Thu Oct 24 18:31:31 CST 2019.-->
+    <!--@Table employment_info-->
+    <id column="employment_id" jdbcType="INTEGER" property="employmentId" />
+    <result column="industry" jdbcType="VARCHAR" property="industry" />
+    <result column="employment_time" jdbcType="DATE" property="employmentTime" />
+    <result column="employment_province" jdbcType="VARCHAR" property="employmentProvince" />
+    <result column="job_title" jdbcType="VARCHAR" property="jobTitle" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu Oct 24 18:31:31 CST 2019.-->
+    employment_id, industry, employment_time, employment_province, job_title, create_time
+  </sql>
+</mapper>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.gues.mapper.UserInfoMapper">
+  <resultMap id="BaseResultMap" type="cn.edu.gues.entity.UserInfo">
+    <!--@mbg.generated generated on Thu Oct 24 18:31:51 CST 2019.-->
+    <!--@Table user_info-->
+    <id column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="user_password" jdbcType="VARCHAR" property="userPassword" />
+    <result column="student_sno" jdbcType="VARCHAR" property="studentSno" />
+    <result column="student_name" jdbcType="VARCHAR" property="studentName" />
+    <result column="student_age" jdbcType="INTEGER" property="studentAge" />
+    <result column="student_sex" jdbcType="SMALLINT" property="studentSex" />
+    <result column="student_college_id" jdbcType="INTEGER" property="studentCollegeId" />
+    <result column="student_special_name" jdbcType="VARCHAR" property="studentSpecialName" />
+    <result column="student_grade" jdbcType="VARCHAR" property="studentGrade" />
+    <result column="student_classandgrade" jdbcType="VARCHAR" property="studentClassandgrade" />
+    <result column="student_industry" jdbcType="VARCHAR" property="studentIndustry" />
+    <result column="company_name" jdbcType="VARCHAR" property="companyName" />
+    <result column="company_address" jdbcType="VARCHAR" property="companyAddress" />
+    <result column="company_phone" jdbcType="VARCHAR" property="companyPhone" />
+    <result column="company_corporate_representative" jdbcType="VARCHAR" property="companyCorporateRepresentative" />
+    <result column="role" jdbcType="SMALLINT" property="role" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu Oct 24 18:31:51 CST 2019.-->
+    user_id, user_name, user_password, student_sno, student_name, student_age, student_sex, 
+    student_college_id, student_special_name, student_grade, student_classandgrade, student_industry, 
+    company_name, company_address, company_phone, company_corporate_representative, `role`
+  </sql>
+</mapper>

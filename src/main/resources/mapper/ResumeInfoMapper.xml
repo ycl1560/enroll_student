@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.edu.gues.mapper.ResumeInfoMapper">
+  <resultMap id="BaseResultMap" type="cn.edu.gues.entity.ResumeInfo">
+    <!--@mbg.generated generated on Thu Oct 24 18:31:48 CST 2019.-->
+    <!--@Table resume_info-->
+    <id column="resume_id" jdbcType="INTEGER" property="resumeId" />
+    <result column="resume_name" jdbcType="VARCHAR" property="resumeName" />
+    <result column="resume_address" jdbcType="VARCHAR" property="resumeAddress" />
+    <result column="resume_updatatime" jdbcType="TIMESTAMP" property="resumeUpdatatime" />
+    <result column="student_id" jdbcType="INTEGER" property="studentId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Thu Oct 24 18:31:48 CST 2019.-->
+    resume_id, resume_name, resume_address, resume_updatatime, student_id
+  </sql>
+</mapper>
